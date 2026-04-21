@@ -70,6 +70,22 @@ GET /expenses
 DELETE /expense/{id}
 
 ---
+## 🌐 Live Demo
+
+Example API Endpoint:
+
+POST /expense
+
+Response:
+
+```json
+{
+  "id": "uuid",
+  "amount": 500,
+  "category": "food"
+}
+```
+---
 ## 🧠 Why This Project?
 
 This project demonstrates a production-style serverless architecture where:
