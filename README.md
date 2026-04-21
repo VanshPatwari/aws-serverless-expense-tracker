@@ -70,6 +70,16 @@ GET /expenses
 DELETE /expense/{id}
 
 ---
+## 🧠 Why This Project?
+
+This project demonstrates a production-style serverless architecture where:
+
+* API Gateway handles incoming requests
+* Lambda processes business logic
+* DynamoDB provides scalable storage
+* SNS enables event-driven alerts
+
+The system is designed to be highly scalable, cost-efficient, and fault-tolerant without managing servers.
 
 ## 📧 Event-Driven Feature
 
